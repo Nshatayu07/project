@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#logo{
+    margin: 1px 15px;
+}
+#logo img{
+    height: 70px;
+    width: 70px;
+    padding: 5px 10px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+#navbar ul li{
+    font-size: 1.5rem
+    
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 2px 15px;  
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;           
+}
+#social img{
+    width: 11rem;
+    padding-left: 700px;
+    cursor: pointer
+}
+.h-primary{
+    font-size: 2.5rem;
+}
+#home .h-primary{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    pad: 7px;
+    margin: 10px;
+}
+#home p{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: system-ui;
+    
+}
+/* #home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 400px;
+    height: 242px;
+    justify-content: center;
+    text-align: center;    
+    color: white;
+} */
+#home {
+    /* display: flex; */
+    flex-direction: column;
+    padding: 15px 400px;
+    height: 242px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+#btn{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 20px;
+    background-color: #f9dfda;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    width: 110px;
+}
+#btn:hover{
+    background-color: rgb(253, 196, 186);
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('img/salad.jpg') no-repeat center center/cover;
+    left: 0px;
+    top: 0px;
+    height: 356px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#sevices{
+    display: flex;    
+}
+#itembox{
+    display: flex;
+    margin: 10px;
+}
+#services img{
+    height: 120px ;
+    width: 130px;
+    display: block;
+    margin: auto;
+}
+#services h1{
+    font-size: 2.5rem;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-container{
+    border: 2px solid brown;
+    border-radius: 20px;
+    background-color: #ffebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    width: 500px;
+    margin: 7px;
+}
+#services p{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: .9rem;
+}
+#clients{
+    display: flex;
+    flex-direction: column;
+}
+#clients h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#clients img{
+    height: 250px;
+    width: 250px;
+}
+.clientsinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients::before{
+    content: "";
+    position: absolute;
+    background: url('img/background-6620952_1920.jpg');
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.25;
+}
+#contact h1{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('img/iconsbg.jpg');
+    height: 31%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#contactbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 1.1rem;
+}
+#contactbox input{
+    display: block;
+    text-align: center;
+    width: 280px;
+    padding: 5px;
+    border-radius: 7px;
+}
+textarea{
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+
+}
+.foot{
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+

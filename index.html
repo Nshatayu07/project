@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <style>
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+            /* height: 3000px; */
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            left: 40px;
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .logoname {
+            font-size: 15px;
+            font-family: cursive;
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            width: 49%;
+            display: block;
+            margin: 20px auto;
+            /* padding: 25px; */
+
+        }
+
+        .right {
+            position: absolute;
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            right: 10px;
+            top: 25px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* text-decoration: underline; */
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 20px 11px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(191, 194, 191);
+        }
+
+        .btn {
+            border: 2px solid grey;
+            border-radius: 6px;
+            background-color: rgb(56, 52, 52);
+            color: white;
+            width: 90px;
+            padding: 5px;
+            /* font-family:Georgia, 'Times New Roman', Times, serif; */
+            margin: 0px 5px;
+            cursor: pointer;
+            font-family: cursive;
+        }
+
+        .btn:hover {
+            background-color: rgb(41, 40, 40);
+            /* color: whitesmoke; */
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            border-radius: 12px;
+            width: 708px;
+            margin: 75px 0px;
+            padding: 60px 3px;
+        }
+
+        .hold {
+            padding: 2px 2px;
+            margin: 4px 150px;
+            text-align: auto;
+            /* size: 54px; */
+        }
+
+        .container button {
+            display: inline-block;
+            width: 180px;
+            text-align: center;
+            padding: 7px 35px;
+            border-radius: 10px;
+            margin: 6px 2px;
+            font-size: larger;
+
+        }
+
+        .hold input {
+            width: 300px;
+            text-align: center;
+            padding: 7px 35px;
+            border-radius: 10px;
+            font-family: cursive;
+            font-size: larger;
+        }
+
+        .container h2 {
+            text-align: center;
+            font-size: 52px;
+            margin: 12px 50px;
+        }
+        /* .container final{
+
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/glogo.jpg" alt="">
+            <div class="logoname">Fitness Club</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> About us</a></li>
+                <li><a href="#"> Fitness Calculator</a></li>
+                <li><a href="#"> Review</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="hd">Join to power up!!!</h2>
+        <form action="noaction.php">
+            <div class="hold">
+                <input type="text" class="text" placeholder="Enetr your Name">
+            </div>
+            <div class="hold">
+                <input type="number" class="number" placeholder="Enetr your Age">
+            </div>
+            <div class="hold">
+                <input type="text" class="text" placeholder="Enetr your Gender">
+            </div>
+            <div class="hold">
+                <input type="number" class="text" placeholder="Enetr your Phone Number">
+            </div>
+            <div class="hold">
+                <button class="btn" type="submit">Submit</button>
+                <button class="btn" type="reset">Reset</button>
+            </div>
+                        
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

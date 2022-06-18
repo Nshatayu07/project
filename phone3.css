@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 1px 1px;
+    padding: 0px 1px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+#navbar::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#social{
+    position: unset;
+}
+#home {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    padding: 0px 10px;
+    margin: 20px;
+    font-size: 1rem;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#home::before {
+    content: '';
+    background: url(img/beach-g65bc9f8e6_1280.jpg)no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 580px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#service h1 {
+    font-size: 2.5rem;
+    font-family: -webkit-pictograph;
+    letter-spacing: 5px;
+    padding-top: 50px;
+}
+#container{
+    display: inline;
+    height: 100%;
+    width: 100%
+}
+#container img{
+    width: 100%;
+    height: 25rem;
+}
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url(img/icon-set-g24616ba84_1280-removebg-preview.png);
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.image (@media screen and (max-width:480px)) {    
+    margin-left: 39%;
+} 
+
+.para {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: sans-serif;
+}
